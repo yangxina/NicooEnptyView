@@ -1,0 +1,23 @@
+PODS:
+  - NicooEnptyView (0.1.1):
+    - SnapKit
+  - SnapKit (4.0.1)
+
+DEPENDENCIES:
+  - NicooEnptyView (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  NicooEnptyView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NicooEnptyView: ad6f6e8b3c859e8e7cbdc7f1fb4d18d612371e1d
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+
+PODFILE CHECKSUM: 94cae62815c4b1c9330e661dfbb89050640dff84
+
+COCOAPODS: 1.5.0

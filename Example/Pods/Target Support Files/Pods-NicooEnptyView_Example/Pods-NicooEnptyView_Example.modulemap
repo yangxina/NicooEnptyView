@@ -1,0 +1,6 @@
+framework module Pods_NicooEnptyView_Example {
+  umbrella header "Pods-NicooEnptyView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

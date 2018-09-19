@@ -1,0 +1,6 @@
+framework module NicooEnptyView {
+  umbrella header "NicooEnptyView-umbrella.h"
+
+  export *
+  module * { export * }
+}

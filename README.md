@@ -11,6 +11,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+NicooEnptyView is show when no network, request failed, no data tableList.
+    
+    NicooErrorView.showErrorMessage(.noNetwork, on: strongSelf.view, clickHandler: {
+    print("Press Screen to request again!")
+    })
+    NicooErrorView.showErrorMessage(.noNetwork, on: strongSelf.view, topMargin: 100, clickHandler: nil)
+    // 暂无数据
+    NicooBuildingView.showBuildingView(on: view)
+
 ## Installation
 
 NicooEnptyView is available through [CocoaPods](https://cocoapods.org). To install

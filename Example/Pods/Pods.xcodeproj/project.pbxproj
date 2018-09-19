@@ -1,0 +1,1220 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A12A6883C31E3B00BB43A6CC42CE31 /* GlobalBuildingIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D70684BAFCC28565D644301591DA9980 /* GlobalBuildingIcon@2x.png */; };
+		05C872D5BEA149FF31832CDF678B10E7 /* NicooErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385B4A92979CFA83A37E0AA1F1E29D91 /* NicooErrorView.swift */; };
+		074FBFC085392093EBEDE25AC0189412 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1130FD3420568BD4A44BC6359400E0A8 /* ConstraintLayoutGuide+Extensions.swift */; };
+		0EDDA62011C6FAAB812BEE7E22649A39 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45908992EEDBCFF12244DAE9912F7228 /* UILayoutSupport+Extensions.swift */; };
+		1251BABDD0FA53064E86727EE737E063 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C8BFD80A7988D3B139768116EE2A7 /* ConstraintMakerRelatable.swift */; };
+		17AA795229C636542898EC95D99A6F5A /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE14A5BE5AA8350526F042EBC920BAA /* ConstraintLayoutSupport.swift */; };
+		186CE69A0AEB8F9AAFEA2AD3F8731E1E /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BDCD0CDEC036E08EBEFEBDB5217C5A /* ConstraintView+Extensions.swift */; };
+		1D0B74C1616335F9DFED35A2E0603E90 /* NicooEnptyView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE10284257BFCB06565DE72FD319F3 /* NicooEnptyView-dummy.m */; };
+		22F4BB7DEB17F29593CDE17BFD63DD3A /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF518E3C1EEA98354E7A1BB1CEC881B /* ConstraintAttributes.swift */; };
+		23D33A22DF0D0FEA4410476D68A29927 /* NicooBuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D29C41A47D612CF37A7A48982ED5AC8 /* NicooBuildingView.swift */; };
+		2E3A3FFD8479841B9BAFB0854663747F /* Pods-NicooEnptyView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C414BEC6B206B1ECF3D4D0230F2E0C /* Pods-NicooEnptyView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3081416E0710ED9D93ED6AE9694F9130 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1C88D7583A855F149230ABA2DF3C8 /* ConstraintRelatableTarget.swift */; };
+		312C50DC7696D56C39642917177949F7 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645061FD8BF394AC613CF4F0D51EEE0B /* ConstraintDSL.swift */; };
+		33EA7094A9EC9E8DCE2F0CFBBD1725DD /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FAAF2F13CE5B667DCA58EF782CF6D /* ConstraintLayoutGuide.swift */; };
+		35580CADAD36DE828DB7E292F7B512EA /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F1F08ED6F3C072E7AC9154FBDC8C4E /* SnapKit-dummy.m */; };
+		35A2C83898BDDDB5A5373748F821C05E /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B73C67F9EFC99A11440EE4069211B84A /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388A925664E78B3A3CE70DDBFC14F223 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068A4C41AD3E035EFFE7E7F568CE1EF9 /* ConstraintLayoutGuideDSL.swift */; };
+		399683A972C57BDF2134AF31032DE519 /* Pods-NicooEnptyView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 293CBFCC9E0593873D24062416C4B330 /* Pods-NicooEnptyView_Tests-dummy.m */; };
+		3A083F873F502BEEBEDBC4CC88B6519B /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2798FAD1ED522B9041959ED19ED6B3DE /* Constraint.swift */; };
+		3C7606A3282A7609665DAF62B5B0FF01 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465909C1E34108C63AB5FBA6378D3493 /* LayoutConstraint.swift */; };
+		4C07DCD671EC2A41F35A41D1577E50A2 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3463E11A1205B5C35B599F4A19C31C3 /* ConstraintOffsetTarget.swift */; };
+		51D375EF5480A5B01A02754844D6FBA5 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A4D5D85B4FAEB4C7AF868A3E48121 /* ConstraintMakerPriortizable.swift */; };
+		54120FB2A8E465C6CB502D90531377D8 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5495F3260249C5CD5E62E6D02610A41D /* ConstraintPriorityTarget.swift */; };
+		55181F57F408752BD64E9949605D8481 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A931CDC4FB0563592274ED61655C7 /* ConstraintPriority.swift */; };
+		58B299B0CBD3E319103114BE75DCCDB7 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E795A4705B4FB474FF417682335F1 /* ConstraintMakerExtendable.swift */; };
+		5A77B9BEC9DF439D244C0C2D19985BA2 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FE61DC3251BBA5CD452BE8564C8E7 /* ConstraintMaker.swift */; };
+		5AA591FC7DB36CBE663EABFFF965165E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512147FDA1939417BB42A1771EA830F9 /* Foundation.framework */; };
+		5DDC1FAB6AEC043894EF9CCAC4A908AA /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A91D0ACFB6CF1883A820AA2607BCA8 /* ConstraintView.swift */; };
+		65C51ECF8E1B085FD413E261C0E060E5 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42E6B36692CB79785C933E25719FA6F /* SnapKit.framework */; };
+		6F88E1D6AC2E4CD55AC827F86A870D0F /* GlobalNOData@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D13A76F34DFE2A8FB88ED859518CF44D /* GlobalNOData@3x.png */; };
+		701DD33352FDB4D333469114D5578F42 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F75E7EE36678F81FD1EC4247DB1B87 /* ConstraintMakerFinalizable.swift */; };
+		71B3EF91812D6110629D3521E1B3B8D4 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297EFDA2A228BE0D126B13FEC2B2AC1 /* ConstraintInsets.swift */; };
+		72FDE0B2558C61A76DA96F0A067E4AC6 /* GlobalBuildingIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F413D2A73BE30E0341B9F55A7014D29 /* GlobalBuildingIcon@3x.png */; };
+		7CC74691284A39D5A64AC319DE10C1BC /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C4EE941C99C2F663494C43944D63FD /* ConstraintConfig.swift */; };
+		853209B6879D3C00ABA15AFAD938849D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512147FDA1939417BB42A1771EA830F9 /* Foundation.framework */; };
+		85359846A59263143E681495A27D0DB7 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC0AC855EFDB998E84AB91F91FC4CA /* ConstraintInsetTarget.swift */; };
+		85556F4798882D04C44A3EB650B77D86 /* NicooEmptyDataStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A593587E3768F26A56E983DB1970BD /* NicooEmptyDataStatusView.swift */; };
+		946D9C736E2583CF7975C681A93E90FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512147FDA1939417BB42A1771EA830F9 /* Foundation.framework */; };
+		9B2F777A6B32465F8775776127968A6C /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39EF6D4C8D8F847461613349A75E07 /* ConstraintDescription.swift */; };
+		A4749BA4B5A36D78AD520F5A7234F459 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EC67A9344FB011AC6B0CB0B1706C1C /* ConstraintLayoutSupportDSL.swift */; };
+		AA41EEEA7677D5FFF615DE43821E3844 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BA51B32ACF0F8F31A11BACEF95396 /* ConstraintMultiplierTarget.swift */; };
+		ABB7B2EAEE86A80A02433C7AC9EC022D /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97CEFB74800C4A5F04ED11A13D33D5 /* ConstraintItem.swift */; };
+		B0F11E27B990E255CB96C3958E64B50C /* NicooEnptyView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BBC00D4F0E91D3C1E6133F17A0D35A33 /* NicooEnptyView.bundle */; };
+		B720A0DD9978AA2704CAEB591147A4AA /* NicooEnptyView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0236009485F661C7F7E0BA2290E62A77 /* NicooEnptyView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C032E2B614D56158F2911A153A3300B0 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B058F739089B32F3323418933731ADFB /* ConstraintViewDSL.swift */; };
+		C0D9B670DD149F422534B42B5B7118B9 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B0F68F55650AB9DA3EB802B75CFE0 /* ConstraintConstantTarget.swift */; };
+		CD72CC53997495F9C356B07C20C106DD /* Pods-NicooEnptyView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD69138DDA69587010317E6C5BEBF376 /* Pods-NicooEnptyView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0C1A2F225BA2D65D55E3541EF596879 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B953D578152B8ABC94EDF5E0C6A43 /* LayoutConstraintItem.swift */; };
+		D0D0361F690F520C3B926FFF5782E81F /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC9D64458AB89596AC989C36546AE0 /* Typealiases.swift */; };
+		DA1824BBF94B3E98517E8157A63C536F /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CE3DCD5A18E652A9D4C4FCC6AEAE10 /* ConstraintMakerEditable.swift */; };
+		EDADFAAA60D18B50B1C1F3C3379EA029 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E03888824F0BC09BC4827577C35087 /* Debugging.swift */; };
+		F1B218FB0841DFFA74AA93AD9A431B99 /* GlobalNONetwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C60C88C0EF3FCAC31215D90F04DBD086 /* GlobalNONetwork@3x.png */; };
+		FAEEE1E737494B8E04BAA0CC94D18521 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA17F2D7F42352672F30A144E51AC809 /* ConstraintRelation.swift */; };
+		FF52E289A840786479A2665F8601FD65 /* Pods-NicooEnptyView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 465FA5EA2D6F8330A64F6A71BB3B5A82 /* Pods-NicooEnptyView_Example-dummy.m */; };
+		FF5D35DE4C4AEBB1291042BD6E2C2E9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512147FDA1939417BB42A1771EA830F9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44DAFB03262C5065AB5F1B63D61D4B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63ABD365F4E73DCA348E031C55513F8F;
+			remoteInfo = NicooEnptyView;
+		};
+		883350A7241B659C94EC03C10B2AA4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689C86B90F95D6DA00669546235E4789;
+			remoteInfo = SnapKit;
+		};
+		A55013AB24479172996D564A64EEC850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61BE245EB4E0CC65FF9E9776F2B20762;
+			remoteInfo = "Pods-NicooEnptyView_Example";
+		};
+		ACCE172A5ACB833BB8FF82A1ED02246E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689C86B90F95D6DA00669546235E4789;
+			remoteInfo = SnapKit;
+		};
+		CB9E7E15166276D213BB85E8471D776C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1909BE8FFB225A8CE845AFF51A08C545;
+			remoteInfo = "NicooEnptyView-NicooEnptyView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0236009485F661C7F7E0BA2290E62A77 /* NicooEnptyView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NicooEnptyView-umbrella.h"; sourceTree = "<group>"; };
+		068A4C41AD3E035EFFE7E7F568CE1EF9 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		06CE8F81490A118EBD785C131B91190C /* Pods-NicooEnptyView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NicooEnptyView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AF518E3C1EEA98354E7A1BB1CEC881B /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		0C7807ABD41D2AEDD4D6DDC8E693A080 /* Pods-NicooEnptyView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NicooEnptyView_Tests-resources.sh"; sourceTree = "<group>"; };
+		11084A6BA20780B0A92EE054D45AD2B7 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		1130FD3420568BD4A44BC6359400E0A8 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		155B0F68F55650AB9DA3EB802B75CFE0 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		1A01962FF0B9880F47BFA387E5DA4225 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3A931CDC4FB0563592274ED61655C7 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		2057A81225328642D0E49115C61C8897 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		23C4EE941C99C2F663494C43944D63FD /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		2798FAD1ED522B9041959ED19ED6B3DE /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		293CBFCC9E0593873D24062416C4B330 /* Pods-NicooEnptyView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NicooEnptyView_Tests-dummy.m"; sourceTree = "<group>"; };
+		32DDDB902E53F38433BB3826F0A183C3 /* Pods-NicooEnptyView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NicooEnptyView_Tests.modulemap"; sourceTree = "<group>"; };
+		35A91D0ACFB6CF1883A820AA2607BCA8 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		385B4A92979CFA83A37E0AA1F1E29D91 /* NicooErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NicooErrorView.swift; path = NicooEnptyView/Classes/NicooErrorView.swift; sourceTree = "<group>"; };
+		3A39EF6D4C8D8F847461613349A75E07 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		3ABC9D64458AB89596AC989C36546AE0 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		3B2029A4DB1A844C9DEAACA9105E349D /* Pods-NicooEnptyView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NicooEnptyView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F413D2A73BE30E0341B9F55A7014D29 /* GlobalBuildingIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GlobalBuildingIcon@3x.png"; path = "NicooEnptyView/Assets/GlobalBuildingIcon@3x.png"; sourceTree = "<group>"; };
+		40B8CDBD829C0450256A46E88B87C9C1 /* NicooEnptyView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NicooEnptyView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45908992EEDBCFF12244DAE9912F7228 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		465909C1E34108C63AB5FBA6378D3493 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		465FA5EA2D6F8330A64F6A71BB3B5A82 /* Pods-NicooEnptyView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NicooEnptyView_Example-dummy.m"; sourceTree = "<group>"; };
+		48CE3DCD5A18E652A9D4C4FCC6AEAE10 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		4956189726B930543B6BFCE33DFA3477 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2A2E47553C2271726DB1001D11A94B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4D29C41A47D612CF37A7A48982ED5AC8 /* NicooBuildingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NicooBuildingView.swift; path = NicooEnptyView/Classes/NicooBuildingView.swift; sourceTree = "<group>"; };
+		512147FDA1939417BB42A1771EA830F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5135F62EAB71F1AD5124642F6F8BFCEA /* NicooEnptyView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NicooEnptyView.modulemap; sourceTree = "<group>"; };
+		5495F3260249C5CD5E62E6D02610A41D /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		55F1F08ED6F3C072E7AC9154FBDC8C4E /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		573F5E40A8706BCB88A696B32B273778 /* Pods-NicooEnptyView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NicooEnptyView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5BF89D162B8820D0CBF1C0F5E6630FB5 /* Pods-NicooEnptyView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NicooEnptyView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FAC0AC855EFDB998E84AB91F91FC4CA /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		618BA51B32ACF0F8F31A11BACEF95396 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		645061FD8BF394AC613CF4F0D51EEE0B /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		6BDFFD137215ADBBBB76E2A6084A6653 /* Pods-NicooEnptyView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NicooEnptyView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		740547D9520E63DA1E2386E6DC7D58FA /* Pods-NicooEnptyView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooEnptyView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		85396B48DA9E860097A9B783AC4E25FD /* Pods_NicooEnptyView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NicooEnptyView_Tests.framework; path = "Pods-NicooEnptyView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0A4D5D85B4FAEB4C7AF868A3E48121 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		8CA945FCE887244FB3DF83F110E1C071 /* NicooEnptyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NicooEnptyView.framework; path = NicooEnptyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9297EFDA2A228BE0D126B13FEC2B2AC1 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		92EC67A9344FB011AC6B0CB0B1706C1C /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A120372845DD26F4B93F2484E84ACB82 /* ResourceBundle-NicooEnptyView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NicooEnptyView-Info.plist"; sourceTree = "<group>"; };
+		A7B1A67AD10203D65611C8476A35F243 /* Pods-NicooEnptyView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooEnptyView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AE5E57E9E8F429B090B2E82731394DB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AF5FAAF2F13CE5B667DCA58EF782CF6D /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		B058F739089B32F3323418933731ADFB /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		B0C414BEC6B206B1ECF3D4D0230F2E0C /* Pods-NicooEnptyView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NicooEnptyView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B5C9CEB30AA71EB58B5CD53321954DE0 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		B73C67F9EFC99A11440EE4069211B84A /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		B8BDCD0CDEC036E08EBEFEBDB5217C5A /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		BBC00D4F0E91D3C1E6133F17A0D35A33 /* NicooEnptyView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NicooEnptyView.bundle; path = "NicooEnptyView-NicooEnptyView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD69138DDA69587010317E6C5BEBF376 /* Pods-NicooEnptyView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NicooEnptyView_Example-umbrella.h"; sourceTree = "<group>"; };
+		BF26A74C4B02B8F1D6067F3CCC090D85 /* Pods-NicooEnptyView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooEnptyView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C42E6B36692CB79785C933E25719FA6F /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60C88C0EF3FCAC31215D90F04DBD086 /* GlobalNONetwork@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GlobalNONetwork@3x.png"; path = "NicooEnptyView/Assets/GlobalNONetwork@3x.png"; sourceTree = "<group>"; };
+		CB8367F79BBF83188B4EAFF1957A4112 /* NicooEnptyView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NicooEnptyView.xcconfig; sourceTree = "<group>"; };
+		CE4EC8372B9E60EAA493A5E54ED0958B /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03996BC9BA4AA34169AAC952CA0648D /* Pods_NicooEnptyView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NicooEnptyView_Example.framework; path = "Pods-NicooEnptyView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09C8BFD80A7988D3B139768116EE2A7 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		D13A76F34DFE2A8FB88ED859518CF44D /* GlobalNOData@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GlobalNOData@3x.png"; path = "NicooEnptyView/Assets/GlobalNOData@3x.png"; sourceTree = "<group>"; };
+		D3463E11A1205B5C35B599F4A19C31C3 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		D35E795A4705B4FB474FF417682335F1 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		D69B953D578152B8ABC94EDF5E0C6A43 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		D6E03888824F0BC09BC4827577C35087 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		D70684BAFCC28565D644301591DA9980 /* GlobalBuildingIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GlobalBuildingIcon@2x.png"; path = "NicooEnptyView/Assets/GlobalBuildingIcon@2x.png"; sourceTree = "<group>"; };
+		D9BE10284257BFCB06565DE72FD319F3 /* NicooEnptyView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NicooEnptyView-dummy.m"; sourceTree = "<group>"; };
+		DA17F2D7F42352672F30A144E51AC809 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		DBE14A5BE5AA8350526F042EBC920BAA /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		DD97CEFB74800C4A5F04ED11A13D33D5 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		DDCFCE174CD311644A0B1995A2426D11 /* Pods-NicooEnptyView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NicooEnptyView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E892AB9724CC391D7F768DF16480F074 /* NicooEnptyView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NicooEnptyView-prefix.pch"; sourceTree = "<group>"; };
+		EEB1C88D7583A855F149230ABA2DF3C8 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		EEC1C0925B7A75C47F90DA4CD473E0A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C1167C0F7C0D6BDC1DE74D8F40C5BD /* Pods-NicooEnptyView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NicooEnptyView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F3F75E7EE36678F81FD1EC4247DB1B87 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		F7A593587E3768F26A56E983DB1970BD /* NicooEmptyDataStatusView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NicooEmptyDataStatusView.swift; path = NicooEnptyView/Classes/NicooEmptyDataStatusView.swift; sourceTree = "<group>"; };
+		FE1FE61DC3251BBA5CD452BE8564C8E7 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		FEBEEC7865CCA3A139A9B288421378E1 /* Pods-NicooEnptyView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NicooEnptyView_Example-resources.sh"; sourceTree = "<group>"; };
+		FFF006C0181F8D8DDD808BEA83BA2726 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFAAB244CECE9C9418B940284EC2C80 /* Pods-NicooEnptyView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NicooEnptyView_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FA43DF77B5A327DF596B69BD3DB55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA591FC7DB36CBE663EABFFF965165E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822651750441F0A408B0C809EE59A655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD7002ACCD92DEDF180583168EC65CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946D9C736E2583CF7975C681A93E90FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D071D49BF01D7A014CDFF5163883B07F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853209B6879D3C00ABA15AFAD938849D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F498BDE689884B3487CA70B9FA309B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5D35DE4C4AEBB1291042BD6E2C2E9B /* Foundation.framework in Frameworks */,
+				65C51ECF8E1B085FD413E261C0E060E5 /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F14D01B37C684095099AE8C8376D636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACE3CBBE2C7163F9C96209ED44FA75D0 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		287EBC5751D723E373F0CF6C0C8914D4 /* Pods-NicooEnptyView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4956189726B930543B6BFCE33DFA3477 /* Info.plist */,
+				FFFAAB244CECE9C9418B940284EC2C80 /* Pods-NicooEnptyView_Example.modulemap */,
+				6BDFFD137215ADBBBB76E2A6084A6653 /* Pods-NicooEnptyView_Example-acknowledgements.markdown */,
+				06CE8F81490A118EBD785C131B91190C /* Pods-NicooEnptyView_Example-acknowledgements.plist */,
+				465FA5EA2D6F8330A64F6A71BB3B5A82 /* Pods-NicooEnptyView_Example-dummy.m */,
+				573F5E40A8706BCB88A696B32B273778 /* Pods-NicooEnptyView_Example-frameworks.sh */,
+				FEBEEC7865CCA3A139A9B288421378E1 /* Pods-NicooEnptyView_Example-resources.sh */,
+				BD69138DDA69587010317E6C5BEBF376 /* Pods-NicooEnptyView_Example-umbrella.h */,
+				A7B1A67AD10203D65611C8476A35F243 /* Pods-NicooEnptyView_Example.debug.xcconfig */,
+				F1C1167C0F7C0D6BDC1DE74D8F40C5BD /* Pods-NicooEnptyView_Example.release.xcconfig */,
+			);
+			name = "Pods-NicooEnptyView_Example";
+			path = "Target Support Files/Pods-NicooEnptyView_Example";
+			sourceTree = "<group>";
+		};
+		3D5B4588C78ABC5E066B917D34F9A90A /* Pods-NicooEnptyView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF006C0181F8D8DDD808BEA83BA2726 /* Info.plist */,
+				32DDDB902E53F38433BB3826F0A183C3 /* Pods-NicooEnptyView_Tests.modulemap */,
+				5BF89D162B8820D0CBF1C0F5E6630FB5 /* Pods-NicooEnptyView_Tests-acknowledgements.markdown */,
+				3B2029A4DB1A844C9DEAACA9105E349D /* Pods-NicooEnptyView_Tests-acknowledgements.plist */,
+				293CBFCC9E0593873D24062416C4B330 /* Pods-NicooEnptyView_Tests-dummy.m */,
+				DDCFCE174CD311644A0B1995A2426D11 /* Pods-NicooEnptyView_Tests-frameworks.sh */,
+				0C7807ABD41D2AEDD4D6DDC8E693A080 /* Pods-NicooEnptyView_Tests-resources.sh */,
+				B0C414BEC6B206B1ECF3D4D0230F2E0C /* Pods-NicooEnptyView_Tests-umbrella.h */,
+				BF26A74C4B02B8F1D6067F3CCC090D85 /* Pods-NicooEnptyView_Tests.debug.xcconfig */,
+				740547D9520E63DA1E2386E6DC7D58FA /* Pods-NicooEnptyView_Tests.release.xcconfig */,
+			);
+			name = "Pods-NicooEnptyView_Tests";
+			path = "Target Support Files/Pods-NicooEnptyView_Tests";
+			sourceTree = "<group>";
+		};
+		432313F4618A6E0D54282078B6A48A1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEC1C0925B7A75C47F90DA4CD473E0A9 /* Info.plist */,
+				2057A81225328642D0E49115C61C8897 /* SnapKit.modulemap */,
+				11084A6BA20780B0A92EE054D45AD2B7 /* SnapKit.xcconfig */,
+				55F1F08ED6F3C072E7AC9154FBDC8C4E /* SnapKit-dummy.m */,
+				B5C9CEB30AA71EB58B5CD53321954DE0 /* SnapKit-prefix.pch */,
+				B73C67F9EFC99A11440EE4069211B84A /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BBB454B84EEB8C560711F6D51FA88F6C /* Development Pods */,
+				D8B25C6DF01BE2C3F2FA6A25AEE6417A /* Frameworks */,
+				0F14D01B37C684095099AE8C8376D636 /* Pods */,
+				F8D95378C60BF4F43DC36B0C15C34192 /* Products */,
+				A01D85FCDBF41D50B63E268D39061905 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A01D85FCDBF41D50B63E268D39061905 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				287EBC5751D723E373F0CF6C0C8914D4 /* Pods-NicooEnptyView_Example */,
+				3D5B4588C78ABC5E066B917D34F9A90A /* Pods-NicooEnptyView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A3DC9EC71117121461138363C8AD3916 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D70684BAFCC28565D644301591DA9980 /* GlobalBuildingIcon@2x.png */,
+				3F413D2A73BE30E0341B9F55A7014D29 /* GlobalBuildingIcon@3x.png */,
+				D13A76F34DFE2A8FB88ED859518CF44D /* GlobalNOData@3x.png */,
+				C60C88C0EF3FCAC31215D90F04DBD086 /* GlobalNONetwork@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ACE3CBBE2C7163F9C96209ED44FA75D0 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				2798FAD1ED522B9041959ED19ED6B3DE /* Constraint.swift */,
+				0AF518E3C1EEA98354E7A1BB1CEC881B /* ConstraintAttributes.swift */,
+				23C4EE941C99C2F663494C43944D63FD /* ConstraintConfig.swift */,
+				155B0F68F55650AB9DA3EB802B75CFE0 /* ConstraintConstantTarget.swift */,
+				3A39EF6D4C8D8F847461613349A75E07 /* ConstraintDescription.swift */,
+				645061FD8BF394AC613CF4F0D51EEE0B /* ConstraintDSL.swift */,
+				9297EFDA2A228BE0D126B13FEC2B2AC1 /* ConstraintInsets.swift */,
+				5FAC0AC855EFDB998E84AB91F91FC4CA /* ConstraintInsetTarget.swift */,
+				DD97CEFB74800C4A5F04ED11A13D33D5 /* ConstraintItem.swift */,
+				AF5FAAF2F13CE5B667DCA58EF782CF6D /* ConstraintLayoutGuide.swift */,
+				1130FD3420568BD4A44BC6359400E0A8 /* ConstraintLayoutGuide+Extensions.swift */,
+				068A4C41AD3E035EFFE7E7F568CE1EF9 /* ConstraintLayoutGuideDSL.swift */,
+				DBE14A5BE5AA8350526F042EBC920BAA /* ConstraintLayoutSupport.swift */,
+				92EC67A9344FB011AC6B0CB0B1706C1C /* ConstraintLayoutSupportDSL.swift */,
+				FE1FE61DC3251BBA5CD452BE8564C8E7 /* ConstraintMaker.swift */,
+				48CE3DCD5A18E652A9D4C4FCC6AEAE10 /* ConstraintMakerEditable.swift */,
+				D35E795A4705B4FB474FF417682335F1 /* ConstraintMakerExtendable.swift */,
+				F3F75E7EE36678F81FD1EC4247DB1B87 /* ConstraintMakerFinalizable.swift */,
+				8A0A4D5D85B4FAEB4C7AF868A3E48121 /* ConstraintMakerPriortizable.swift */,
+				D09C8BFD80A7988D3B139768116EE2A7 /* ConstraintMakerRelatable.swift */,
+				618BA51B32ACF0F8F31A11BACEF95396 /* ConstraintMultiplierTarget.swift */,
+				D3463E11A1205B5C35B599F4A19C31C3 /* ConstraintOffsetTarget.swift */,
+				1C3A931CDC4FB0563592274ED61655C7 /* ConstraintPriority.swift */,
+				5495F3260249C5CD5E62E6D02610A41D /* ConstraintPriorityTarget.swift */,
+				EEB1C88D7583A855F149230ABA2DF3C8 /* ConstraintRelatableTarget.swift */,
+				DA17F2D7F42352672F30A144E51AC809 /* ConstraintRelation.swift */,
+				35A91D0ACFB6CF1883A820AA2607BCA8 /* ConstraintView.swift */,
+				B8BDCD0CDEC036E08EBEFEBDB5217C5A /* ConstraintView+Extensions.swift */,
+				B058F739089B32F3323418933731ADFB /* ConstraintViewDSL.swift */,
+				D6E03888824F0BC09BC4827577C35087 /* Debugging.swift */,
+				465909C1E34108C63AB5FBA6378D3493 /* LayoutConstraint.swift */,
+				D69B953D578152B8ABC94EDF5E0C6A43 /* LayoutConstraintItem.swift */,
+				3ABC9D64458AB89596AC989C36546AE0 /* Typealiases.swift */,
+				45908992EEDBCFF12244DAE9912F7228 /* UILayoutSupport+Extensions.swift */,
+				432313F4618A6E0D54282078B6A48A1B /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		B335E187F84CF70D05DCD50BABE5353B /* NicooEnptyView */ = {
+			isa = PBXGroup;
+			children = (
+				4D29C41A47D612CF37A7A48982ED5AC8 /* NicooBuildingView.swift */,
+				F7A593587E3768F26A56E983DB1970BD /* NicooEmptyDataStatusView.swift */,
+				385B4A92979CFA83A37E0AA1F1E29D91 /* NicooErrorView.swift */,
+				C724F43055EC1FA63D2DED234B4C02A1 /* Pod */,
+				A3DC9EC71117121461138363C8AD3916 /* Resources */,
+				B72478C3C21EC94394ECB54E4C53F062 /* Support Files */,
+			);
+			name = NicooEnptyView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B72478C3C21EC94394ECB54E4C53F062 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A01962FF0B9880F47BFA387E5DA4225 /* Info.plist */,
+				5135F62EAB71F1AD5124642F6F8BFCEA /* NicooEnptyView.modulemap */,
+				CB8367F79BBF83188B4EAFF1957A4112 /* NicooEnptyView.xcconfig */,
+				D9BE10284257BFCB06565DE72FD319F3 /* NicooEnptyView-dummy.m */,
+				E892AB9724CC391D7F768DF16480F074 /* NicooEnptyView-prefix.pch */,
+				0236009485F661C7F7E0BA2290E62A77 /* NicooEnptyView-umbrella.h */,
+				A120372845DD26F4B93F2484E84ACB82 /* ResourceBundle-NicooEnptyView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NicooEnptyView";
+			sourceTree = "<group>";
+		};
+		BBB454B84EEB8C560711F6D51FA88F6C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B335E187F84CF70D05DCD50BABE5353B /* NicooEnptyView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C724F43055EC1FA63D2DED234B4C02A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4C2A2E47553C2271726DB1001D11A94B /* LICENSE */,
+				40B8CDBD829C0450256A46E88B87C9C1 /* NicooEnptyView.podspec */,
+				AE5E57E9E8F429B090B2E82731394DB0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C9E2F05B23679BCD6C42377E2CF37430 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				512147FDA1939417BB42A1771EA830F9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8B25C6DF01BE2C3F2FA6A25AEE6417A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C42E6B36692CB79785C933E25719FA6F /* SnapKit.framework */,
+				C9E2F05B23679BCD6C42377E2CF37430 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D95378C60BF4F43DC36B0C15C34192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBC00D4F0E91D3C1E6133F17A0D35A33 /* NicooEnptyView.bundle */,
+				8CA945FCE887244FB3DF83F110E1C071 /* NicooEnptyView.framework */,
+				D03996BC9BA4AA34169AAC952CA0648D /* Pods_NicooEnptyView_Example.framework */,
+				85396B48DA9E860097A9B783AC4E25FD /* Pods_NicooEnptyView_Tests.framework */,
+				CE4EC8372B9E60EAA493A5E54ED0958B /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B9E89A82DB216C56351AD6C0E66B0E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B720A0DD9978AA2704CAEB591147A4AA /* NicooEnptyView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E25107CAB7EA240A518FD1FD7C549B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD72CC53997495F9C356B07C20C106DD /* Pods-NicooEnptyView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53F02FB1DE3009CD7F2548FDED29BA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A2C83898BDDDB5A5373748F821C05E /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE8C3E1EA3CB2656A26225D1BA890F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3A3FFD8479841B9BAFB0854663747F /* Pods-NicooEnptyView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1909BE8FFB225A8CE845AFF51A08C545 /* NicooEnptyView-NicooEnptyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C43AE6866D47326735ED7553F90153 /* Build configuration list for PBXNativeTarget "NicooEnptyView-NicooEnptyView" */;
+			buildPhases = (
+				01860A59B5F420432CBFF17B79CBBB2B /* Sources */,
+				822651750441F0A408B0C809EE59A655 /* Frameworks */,
+				B6EEA6AE291B4D08E536BFEE319B9841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NicooEnptyView-NicooEnptyView";
+			productName = "NicooEnptyView-NicooEnptyView";
+			productReference = BBC00D4F0E91D3C1E6133F17A0D35A33 /* NicooEnptyView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1D9D69845B171183AAF2DD70A14EF606 /* Pods-NicooEnptyView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F3F63886998EE700081596710EA294 /* Build configuration list for PBXNativeTarget "Pods-NicooEnptyView_Tests" */;
+			buildPhases = (
+				66E782BC32F6438E91249354D1EEC9DC /* Sources */,
+				9BD7002ACCD92DEDF180583168EC65CA /* Frameworks */,
+				DEE8C3E1EA3CB2656A26225D1BA890F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D7F08747B5B0B5EDD1DD2A41BF2BFF9 /* PBXTargetDependency */,
+			);
+			name = "Pods-NicooEnptyView_Tests";
+			productName = "Pods-NicooEnptyView_Tests";
+			productReference = 85396B48DA9E860097A9B783AC4E25FD /* Pods_NicooEnptyView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61BE245EB4E0CC65FF9E9776F2B20762 /* Pods-NicooEnptyView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F084FC77CF05B9016BB24BCCFC0FEE /* Build configuration list for PBXNativeTarget "Pods-NicooEnptyView_Example" */;
+			buildPhases = (
+				654D90C15B40C354AD36031BAEE7D4A7 /* Sources */,
+				D071D49BF01D7A014CDFF5163883B07F /* Frameworks */,
+				A7E25107CAB7EA240A518FD1FD7C549B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7738B2BE7C2E0523703E2982DA224C7A /* PBXTargetDependency */,
+				4EBD82890D22943E352FD19C3E4AA9A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-NicooEnptyView_Example";
+			productName = "Pods-NicooEnptyView_Example";
+			productReference = D03996BC9BA4AA34169AAC952CA0648D /* Pods_NicooEnptyView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63ABD365F4E73DCA348E031C55513F8F /* NicooEnptyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D636D26839778C2682F4BB1BB1284B /* Build configuration list for PBXNativeTarget "NicooEnptyView" */;
+			buildPhases = (
+				CDB03384BF545CBEAAA4A92253B5454F /* Sources */,
+				F498BDE689884B3487CA70B9FA309B1D /* Frameworks */,
+				B39C60DD6A80D07980076C822EDD29DB /* Resources */,
+				2B9E89A82DB216C56351AD6C0E66B0E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6404F247B632FD40B45A2DEE6C504243 /* PBXTargetDependency */,
+				F13F967FEBC804D820F4C7C580072CD6 /* PBXTargetDependency */,
+			);
+			name = NicooEnptyView;
+			productName = NicooEnptyView;
+			productReference = 8CA945FCE887244FB3DF83F110E1C071 /* NicooEnptyView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		689C86B90F95D6DA00669546235E4789 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8A7AC286D50C5FA9BD5CBA7D39C162 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				F9C2DC2E6EBA055A744DFA628D06E0A6 /* Sources */,
+				28FA43DF77B5A327DF596B69BD3DB55B /* Frameworks */,
+				D53F02FB1DE3009CD7F2548FDED29BA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = CE4EC8372B9E60EAA493A5E54ED0958B /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F8D95378C60BF4F43DC36B0C15C34192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63ABD365F4E73DCA348E031C55513F8F /* NicooEnptyView */,
+				1909BE8FFB225A8CE845AFF51A08C545 /* NicooEnptyView-NicooEnptyView */,
+				61BE245EB4E0CC65FF9E9776F2B20762 /* Pods-NicooEnptyView_Example */,
+				1D9D69845B171183AAF2DD70A14EF606 /* Pods-NicooEnptyView_Tests */,
+				689C86B90F95D6DA00669546235E4789 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39C60DD6A80D07980076C822EDD29DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F11E27B990E255CB96C3958E64B50C /* NicooEnptyView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EEA6AE291B4D08E536BFEE319B9841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A12A6883C31E3B00BB43A6CC42CE31 /* GlobalBuildingIcon@2x.png in Resources */,
+				72FDE0B2558C61A76DA96F0A067E4AC6 /* GlobalBuildingIcon@3x.png in Resources */,
+				6F88E1D6AC2E4CD55AC827F86A870D0F /* GlobalNOData@3x.png in Resources */,
+				F1B218FB0841DFFA74AA93AD9A431B99 /* GlobalNONetwork@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01860A59B5F420432CBFF17B79CBBB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654D90C15B40C354AD36031BAEE7D4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF52E289A840786479A2665F8601FD65 /* Pods-NicooEnptyView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E782BC32F6438E91249354D1EEC9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399683A972C57BDF2134AF31032DE519 /* Pods-NicooEnptyView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB03384BF545CBEAAA4A92253B5454F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D33A22DF0D0FEA4410476D68A29927 /* NicooBuildingView.swift in Sources */,
+				85556F4798882D04C44A3EB650B77D86 /* NicooEmptyDataStatusView.swift in Sources */,
+				1D0B74C1616335F9DFED35A2E0603E90 /* NicooEnptyView-dummy.m in Sources */,
+				05C872D5BEA149FF31832CDF678B10E7 /* NicooErrorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C2DC2E6EBA055A744DFA628D06E0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A083F873F502BEEBEDBC4CC88B6519B /* Constraint.swift in Sources */,
+				22F4BB7DEB17F29593CDE17BFD63DD3A /* ConstraintAttributes.swift in Sources */,
+				7CC74691284A39D5A64AC319DE10C1BC /* ConstraintConfig.swift in Sources */,
+				C0D9B670DD149F422534B42B5B7118B9 /* ConstraintConstantTarget.swift in Sources */,
+				9B2F777A6B32465F8775776127968A6C /* ConstraintDescription.swift in Sources */,
+				312C50DC7696D56C39642917177949F7 /* ConstraintDSL.swift in Sources */,
+				71B3EF91812D6110629D3521E1B3B8D4 /* ConstraintInsets.swift in Sources */,
+				85359846A59263143E681495A27D0DB7 /* ConstraintInsetTarget.swift in Sources */,
+				ABB7B2EAEE86A80A02433C7AC9EC022D /* ConstraintItem.swift in Sources */,
+				074FBFC085392093EBEDE25AC0189412 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				33EA7094A9EC9E8DCE2F0CFBBD1725DD /* ConstraintLayoutGuide.swift in Sources */,
+				388A925664E78B3A3CE70DDBFC14F223 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				17AA795229C636542898EC95D99A6F5A /* ConstraintLayoutSupport.swift in Sources */,
+				A4749BA4B5A36D78AD520F5A7234F459 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				5A77B9BEC9DF439D244C0C2D19985BA2 /* ConstraintMaker.swift in Sources */,
+				DA1824BBF94B3E98517E8157A63C536F /* ConstraintMakerEditable.swift in Sources */,
+				58B299B0CBD3E319103114BE75DCCDB7 /* ConstraintMakerExtendable.swift in Sources */,
+				701DD33352FDB4D333469114D5578F42 /* ConstraintMakerFinalizable.swift in Sources */,
+				51D375EF5480A5B01A02754844D6FBA5 /* ConstraintMakerPriortizable.swift in Sources */,
+				1251BABDD0FA53064E86727EE737E063 /* ConstraintMakerRelatable.swift in Sources */,
+				AA41EEEA7677D5FFF615DE43821E3844 /* ConstraintMultiplierTarget.swift in Sources */,
+				4C07DCD671EC2A41F35A41D1577E50A2 /* ConstraintOffsetTarget.swift in Sources */,
+				55181F57F408752BD64E9949605D8481 /* ConstraintPriority.swift in Sources */,
+				54120FB2A8E465C6CB502D90531377D8 /* ConstraintPriorityTarget.swift in Sources */,
+				3081416E0710ED9D93ED6AE9694F9130 /* ConstraintRelatableTarget.swift in Sources */,
+				FAEEE1E737494B8E04BAA0CC94D18521 /* ConstraintRelation.swift in Sources */,
+				186CE69A0AEB8F9AAFEA2AD3F8731E1E /* ConstraintView+Extensions.swift in Sources */,
+				5DDC1FAB6AEC043894EF9CCAC4A908AA /* ConstraintView.swift in Sources */,
+				C032E2B614D56158F2911A153A3300B0 /* ConstraintViewDSL.swift in Sources */,
+				EDADFAAA60D18B50B1C1F3C3379EA029 /* Debugging.swift in Sources */,
+				3C7606A3282A7609665DAF62B5B0FF01 /* LayoutConstraint.swift in Sources */,
+				D0C1A2F225BA2D65D55E3541EF596879 /* LayoutConstraintItem.swift in Sources */,
+				35580CADAD36DE828DB7E292F7B512EA /* SnapKit-dummy.m in Sources */,
+				D0D0361F690F520C3B926FFF5782E81F /* Typealiases.swift in Sources */,
+				0EDDA62011C6FAAB812BEE7E22649A39 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EBD82890D22943E352FD19C3E4AA9A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 689C86B90F95D6DA00669546235E4789 /* SnapKit */;
+			targetProxy = 883350A7241B659C94EC03C10B2AA4F4 /* PBXContainerItemProxy */;
+		};
+		5D7F08747B5B0B5EDD1DD2A41BF2BFF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NicooEnptyView_Example";
+			target = 61BE245EB4E0CC65FF9E9776F2B20762 /* Pods-NicooEnptyView_Example */;
+			targetProxy = A55013AB24479172996D564A64EEC850 /* PBXContainerItemProxy */;
+		};
+		6404F247B632FD40B45A2DEE6C504243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NicooEnptyView-NicooEnptyView";
+			target = 1909BE8FFB225A8CE845AFF51A08C545 /* NicooEnptyView-NicooEnptyView */;
+			targetProxy = CB9E7E15166276D213BB85E8471D776C /* PBXContainerItemProxy */;
+		};
+		7738B2BE7C2E0523703E2982DA224C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NicooEnptyView;
+			target = 63ABD365F4E73DCA348E031C55513F8F /* NicooEnptyView */;
+			targetProxy = 44DAFB03262C5065AB5F1B63D61D4B36 /* PBXContainerItemProxy */;
+		};
+		F13F967FEBC804D820F4C7C580072CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 689C86B90F95D6DA00669546235E4789 /* SnapKit */;
+			targetProxy = ACCE172A5ACB833BB8FF82A1ED02246E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08DE01C3763E3E9432A9D0FBCC72D7BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11084A6BA20780B0A92EE054D45AD2B7 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C7B6110BED4F8AA99298CF3347586A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740547D9520E63DA1E2386E6DC7D58FA /* Pods-NicooEnptyView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NicooEnptyView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NicooEnptyView_Tests/Pods-NicooEnptyView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		130BE0AB485ABFDF153C3A6136F2EE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8367F79BBF83188B4EAFF1957A4112 /* NicooEnptyView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NicooEnptyView";
+				INFOPLIST_FILE = "Target Support Files/NicooEnptyView/ResourceBundle-NicooEnptyView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NicooEnptyView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1914959789CA523851E86A93D0A869D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C1167C0F7C0D6BDC1DE74D8F40C5BD /* Pods-NicooEnptyView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NicooEnptyView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NicooEnptyView_Example/Pods-NicooEnptyView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		251D03777204367423D5F1C171CFB373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8367F79BBF83188B4EAFF1957A4112 /* NicooEnptyView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NicooEnptyView/NicooEnptyView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NicooEnptyView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NicooEnptyView/NicooEnptyView.modulemap";
+				PRODUCT_MODULE_NAME = NicooEnptyView;
+				PRODUCT_NAME = NicooEnptyView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61FB40074FFD1144F59575D104BB0A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8367F79BBF83188B4EAFF1957A4112 /* NicooEnptyView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NicooEnptyView/NicooEnptyView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NicooEnptyView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NicooEnptyView/NicooEnptyView.modulemap";
+				PRODUCT_MODULE_NAME = NicooEnptyView;
+				PRODUCT_NAME = NicooEnptyView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A0F66A712DF21C37A606DD111E973CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF26A74C4B02B8F1D6067F3CCC090D85 /* Pods-NicooEnptyView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NicooEnptyView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NicooEnptyView_Tests/Pods-NicooEnptyView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC9DB4019F070924A830C1ED50A49B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B1A67AD10203D65611C8476A35F243 /* Pods-NicooEnptyView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NicooEnptyView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NicooEnptyView_Example/Pods-NicooEnptyView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C267615B6463A44AB844CFA12C09C468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11084A6BA20780B0A92EE054D45AD2B7 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB988684D0E7B4E67FDD1900E4019C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8367F79BBF83188B4EAFF1957A4112 /* NicooEnptyView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NicooEnptyView";
+				INFOPLIST_FILE = "Target Support Files/NicooEnptyView/ResourceBundle-NicooEnptyView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NicooEnptyView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8A7AC286D50C5FA9BD5CBA7D39C162 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DE01C3763E3E9432A9D0FBCC72D7BC /* Debug */,
+				C267615B6463A44AB844CFA12C09C468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D636D26839778C2682F4BB1BB1284B /* Build configuration list for PBXNativeTarget "NicooEnptyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251D03777204367423D5F1C171CFB373 /* Debug */,
+				61FB40074FFD1144F59575D104BB0A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F3F63886998EE700081596710EA294 /* Build configuration list for PBXNativeTarget "Pods-NicooEnptyView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F66A712DF21C37A606DD111E973CCD /* Debug */,
+				0C7B6110BED4F8AA99298CF3347586A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F084FC77CF05B9016BB24BCCFC0FEE /* Build configuration list for PBXNativeTarget "Pods-NicooEnptyView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9DB4019F070924A830C1ED50A49B26 /* Debug */,
+				1914959789CA523851E86A93D0A869D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C43AE6866D47326735ED7553F90153 /* Build configuration list for PBXNativeTarget "NicooEnptyView-NicooEnptyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130BE0AB485ABFDF153C3A6136F2EE94 /* Debug */,
+				ECB988684D0E7B4E67FDD1900E4019C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
