@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NicooEnptyView_Example' do
+  pod 'NicooEnptyView', :path => '../'
+
+  target 'NicooEnptyView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
