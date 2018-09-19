@@ -19,6 +19,8 @@ NicooEnptyView is show when no network, request failed, no data tableList.
     NicooErrorView.showErrorMessage(.noNetwork, on: strongSelf.view, topMargin: 100, clickHandler: nil)
     // 暂无数据
     NicooBuildingView.showBuildingView(on: view)
+    
+    如果代码报错， 可以到 https://github.com/yangxina/code 下载
 
 ## Installation
 
