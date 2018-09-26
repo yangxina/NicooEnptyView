@@ -12,7 +12,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 NicooEnptyView is show when no network, request failed, no data tableList.
-    
+
     NicooErrorView.showErrorMessage(.noNetwork, on: strongSelf.view, clickHandler: {
     print("Press Screen to request again!")
     })
