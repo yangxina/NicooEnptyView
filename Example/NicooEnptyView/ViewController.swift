@@ -36,12 +36,13 @@ class ViewController: UIViewController {
         return barBtn
     }()
     
+    private var haveData: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.rightBarButtonItem = editBarButton
         navigationItem.leftBarButtonItem = leftBarButton
-        
+        loadSubVies()
         showAlertView()
         
     }
@@ -70,16 +71,22 @@ private extension ViewController {
         let successAction = UIAlertAction(title: "Successed", style: .default) { [weak self] (action) in
             guard let strongSelf = self else { return }
             NicooErrorView.removeErrorMeesageFrom(strongSelf.view)
-            strongSelf.loadSubVies()
+            strongSelf.haveData = true
+            strongSelf.tableView.reloadData()
+            
         }
         
         let failedAction = UIAlertAction(title: "Failed", style: .default) { [weak self] (action) in
             guard let strongSelf = self else { return }
-//            NicooErrorView.showErrorMessage(.noNetwork, on: strongSelf.view, clickHandler: {
-//                print("Press Screen to request again!")
-//            })
-            NicooErrorView.showErrorMessage(.noNetwork, on: strongSelf.view, topMargin: 100, clickHandler: nil)
+            NicooErrorView.showErrorMessage(.noNetwork, on: strongSelf.view, clickHandler: {
+                print("Press Screen to request again!")
+                NicooErrorView.removeErrorMeesageFrom(strongSelf.view)
+                strongSelf.haveData = true
+                strongSelf.tableView.reloadData()
+            })
+            //NicooErrorView.showErrorMessage(.noNetwork, on: strongSelf.view, topMargin: 100, clickHandler: nil)
         }
+        
         alert.addAction(successAction)
         alert.addAction(failedAction)
         self.present(alert, animated: false, completion: nil)
@@ -98,7 +105,7 @@ private extension ViewController {
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return haveData ? 10 : 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
