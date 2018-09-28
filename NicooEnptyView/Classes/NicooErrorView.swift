@@ -64,6 +64,14 @@ open class NicooErrorView: UIView {
 
     // MARK: - Public functions
 
+    /// 默认的两种作物提示
+    ///
+    /// - Parameters:
+    ///   - errorType: 错误类型 （无网络，无数据）
+    ///   - view: 父视图
+    ///   - topMargin: 顶部间距
+    ///   - clickHandler: 点击响应事件句柄
+    
     open class func showErrorMessage(_ errorType: NicooErrorType, on view: UIView, topMargin: CGFloat? = nil, clickHandler: (() -> Void)?) {
         removeErrorMeesageFrom(view)
 
@@ -86,14 +94,21 @@ open class NicooErrorView: UIView {
         }
     }
     
-    open class func showErrorMessage(_ message: String, on view: UIView, customerTopMargin: CGFloat?) {
+    /// 自定义错误提示
+    ///
+    /// - Parameters:
+    ///   - message: 提示语
+    ///   - view: 父视图
+    ///   - customerTopMargin: 自定义顶部间距
+    
+    open class func showCustomErrorMessage(_ message: String, on view: UIView, customerTopMargin: CGFloat?) {
         removeErrorMeesageFrom(view)
         
         let errorView = NicooErrorView(frame: view.frame)
-        errorView.imageView.isHidden = true
-        errorView.label.isHidden = true
+        errorView.titleLabel.isHidden = true
         errorView.refreshLabel.isHidden = true
-        errorView.titleLabel.text = message
+        errorView.imageView.image = SourceImageFound.foundImage(imageName: "GlobalNOData")
+        errorView.label.text = message
         view.addSubview(errorView)
         errorView.snp.makeConstraints { (make) in
             make.leading.equalTo(0)

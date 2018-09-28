@@ -25,14 +25,14 @@ class ViewController: UIViewController {
     private lazy var editBarButton: UIBarButtonItem = {
         let barBtn = UIBarButtonItem(title: "清空",  style: .plain, target: self, action: #selector(rightBarButtonClick))
         barBtn.tintColor = UIColor.blue
-        barBtn.setTitleTextAttributes([NSAttributedStringKey.font: UIFont.systemFont(ofSize: 16), NSAttributedStringKey.foregroundColor: UIColor.black], for: .normal)
+        barBtn.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 16), NSAttributedString.Key.foregroundColor: UIColor.black], for: .normal)
         return barBtn
     }()
     
     private lazy var leftBarButton: UIBarButtonItem = {
         let barBtn = UIBarButtonItem(title: "暂无",  style: .plain, target: self, action: #selector(leftBarButtonClick))
         barBtn.tintColor = UIColor.blue
-        barBtn.setTitleTextAttributes([NSAttributedStringKey.font: UIFont.systemFont(ofSize: 16), NSAttributedStringKey.foregroundColor: UIColor.black], for: .normal)
+        barBtn.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 16), NSAttributedString.Key.foregroundColor: UIColor.black], for: .normal)
         return barBtn
     }()
     
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     @objc func rightBarButtonClick() {
         // 显示错误信息： 无数据 （清空后）， 网络请求失败
         NicooErrorView.showErrorMessage(.noData, on: view, clickHandler: nil)
-        //NicooErrorView.showErrorMessage("What is wrong with you !", on: view, customerTopMargin: 90)
+        //NicooErrorView.showCustomErrorMessage("What is wrong with you !", on: view, customerTopMargin: 90)
     }
 
     @objc func leftBarButtonClick() {
