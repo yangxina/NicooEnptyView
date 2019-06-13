@@ -1,4 +1,4 @@
-# NicooEnptyView
+# NicooEmptyView
 
 [![CI Status](https://img.shields.io/travis/504672006@qq.com/NicooEnptyView.svg?style=flat)](https://travis-ci.org/504672006@qq.com/NicooEnptyView)
 [![Version](https://img.shields.io/cocoapods/v/NicooEnptyView.svg?style=flat)](https://cocoapods.org/pods/NicooEnptyView)
@@ -11,7 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-NicooEnptyView is show when no network, request failed, no data tableList.
+NicooEmptyView is show when no network, request failed, no data tableList.
 
     NicooErrorView.showErrorMessage(.noNetwork, on: strongSelf.view, clickHandler: {
     print("Press Screen to request again!")
@@ -32,11 +32,11 @@ NicooEnptyView is show when no network, request failed, no data tableList.
      
 ## Installation
 
-NicooEnptyView is available through [CocoaPods](https://cocoapods.org). To install
+NicooEmptyView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'NicooEnptyView'
+pod 'NicooEmptyView'
 ```
 
 ## Author
@@ -45,4 +45,4 @@ pod 'NicooEnptyView'
 
 ## License
 
-NicooEnptyView is available under the MIT license. See the LICENSE file for more info.
+NicooEmptyView is available under the MIT license. See the LICENSE file for more info.
